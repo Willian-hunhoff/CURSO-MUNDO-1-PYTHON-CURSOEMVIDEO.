@@ -1,0 +1,7 @@
+i = str(input("escreva alguma coisa "))
+print(" o tipo primitivo do que você escreveu é ", type(i))
+print("seu número só tem espaços?", i.isspace())
+print("o seu número so tem letras maiusculas", i.isupper())
+print("é um número? ", i.isnumeric())
+print("está em letras minusculas? ", i.islower())
+print("esta capitalizada? ", i.istitle())

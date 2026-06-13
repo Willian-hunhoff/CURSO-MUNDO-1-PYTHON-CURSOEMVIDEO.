@@ -1,0 +1,6 @@
+nome = str(input("escreva seu nome "))
+print("prazer em te conheçer {:5}! " .format(nome))
+print("prazer em te conheçer {:>20}! " .format(nome))
+print("prazer em te conheçer {:<20}! " .format(nome))
+print("prazer em te conheçer {:^20}! " .format(nome))
+print("prazer em te conheçer {:-^20}! " .format(nome))
